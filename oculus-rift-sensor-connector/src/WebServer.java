@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2015, Markus Sprunck <sprunck.markus@gmail.com>
  *
@@ -111,7 +112,7 @@ public class WebServer extends Thread {
 		} catch (IOException e) {
 			LOGGER.error(e.getMessage());
 			LOGGER.info("server stopped");
-				System.exit(0);
+			System.exit(0);
 		}
 	}
 
